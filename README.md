@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Shopsy – Shop with Confidence, Know What You Are Buying  
+
+Shopsy is a modern **e-commerce platform** built with **Next.js, React, Tailwind CSS, and Mongoose**. It provides a seamless shopping experience with a sleek UI, fast performance, and essential features like product browsing, secure checkout, and user authentication.  
+
+---
+
+## 🚀 Features  
+
+✅ **User Authentication** – Sign in with Google or email/password authentication.  
+✅ **Product Listings** – Browse and search for products with detailed descriptions.  
+✅ **Shopping Cart** – Add, remove, and update cart items in real time.  
+✅ **Secure Checkout** – Integrated Stripe for seamless payments.  
+✅ **Order Management** – View order history and track purchases.  
+✅ **Responsive Design** – Optimized for mobile and desktop.  
+✅ **Lightning Fast** – Server-side rendering (SSR) with Next.js for high performance.  
+
+---
+
+## 🛠️ Tech Stack  
+
+🔹 **Frontend:** Next.js, React, Tailwind CSS  
+🔹 **Backend:** Mongoose  
+🔹 **Payments:** Stripe API  
+
+---
 
 ## Getting Started
 
