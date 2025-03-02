@@ -14,7 +14,7 @@ export default async function Search() {
   return (
     <form action='/search' method='GET' className='flex  items-stretch h-10 '>
       <Select name='category'>
-        <SelectTrigger className='w-auto h-full dark:border-gray-200 bg-gray-100 text-black border-r  rounded-r-none rounded-l-md'>
+        <SelectTrigger className='w-auto h-full cursor-pointer dark:border-gray-200 bg-gray-100 text-black border-r  rounded-r-none rounded-l-md'>
           <SelectValue placeholder='All' />
         </SelectTrigger>
         <SelectContent position='popper'>
@@ -34,7 +34,7 @@ export default async function Search() {
       />
       <button
         type='submit'
-        className='bg-primary text-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-2 '
+        className='bg-yellow-400 text-secondary-foreground shadow-xs hover:bg-yellow-400/80 cursor-pointer rounded-s-none rounded-e-md h-full px-3 py-2 '
       >
         <SearchIcon className='w-6 h-6' />
       </button>

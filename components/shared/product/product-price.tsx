@@ -33,7 +33,9 @@ const ProductPrice = ({
   ) : isDeal ? (
     <div className='space-y-2'>
       <div
-        className={`flex ${forListing && 'justify-center'} items-center gap-2`}
+        className={`flex flex-wrap ${
+          forListing && 'justify-center'
+        } items-center gap-2`}
       >
         <div className={cn('text-3xl', className)}>
           <span className='text-xs align-super'>₹</span>

@@ -6,3 +6,7 @@ export const APP_DESCRIPTION =
   'Shop with confidence, know what you are buying'
 
 export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9)
+
+export const FREE_SHIPPING_MIN_PRICE = Number(
+  process.env.FREE_SHIPPING_MIN_PRICE || 500
+)
