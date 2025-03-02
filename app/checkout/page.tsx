@@ -1,6 +1,6 @@
+import { auth } from '@/auth'
 import { Metadata } from 'next'
 import { redirect } from 'next/navigation'
-import { auth } from '@auth'
 
 export const metadata: Metadata = {
   title: 'Checkout',
