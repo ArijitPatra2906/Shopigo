@@ -55,7 +55,7 @@ export default function AddToCart({
         }
       }}
     >
-      Add to Cart
+      Add to Carts
     </Button>
   ) : (
     <div className='w-full space-y-2'>
@@ -78,6 +78,7 @@ export default function AddToCart({
       <Button
         className='rounded-full w-full'
         type='button'
+        variant={'warning'}
         onClick={async () => {
           try {
             const itemId = await addItem(item, quantity)

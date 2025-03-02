@@ -34,7 +34,7 @@ export default async function Search() {
       />
       <button
         type='submit'
-        className='bg-primary text-primary-foreground cursor-pointer rounded-s-none rounded-e-md h-full px-3 py-2 '
+        className='bg-yellow-400 text-secondary-foreground shadow-xs hover:bg-yellow-400/80 cursor-pointer rounded-s-none rounded-e-md h-full px-3 py-2 '
       >
         <SearchIcon className='w-6 h-6' />
       </button>
