@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/select'
 import useCartStore from '@/hooks/use-cart-store'
 import { APP_NAME, FREE_SHIPPING_MIN_PRICE } from '@/lib/constants'
-import { Trash } from 'lucide-react'
+import { TrashIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
@@ -72,14 +72,18 @@ export default function CartPage() {
                           {item.name}
                         </Link>
                         <div>
-                          <p className='text-sm'>
-                            <span className='font-bold'>Color: </span>{' '}
-                            {item.color}
-                          </p>
-                          <p className='text-sm'>
-                            <span className='font-bold'>Size: </span>{' '}
-                            {item.size}
-                          </p>
+                          {item.color && (
+                            <p className='text-sm'>
+                              <span className='font-bold'>Color: </span>{' '}
+                              {item.color}
+                            </p>
+                          )}
+                          {item.size && (
+                            <p className='text-sm'>
+                              <span className='font-bold'>Size: </span>{' '}
+                              {item.size}
+                            </p>
+                          )}
                         </div>
                         <div className='flex gap-2 items-center'>
                           <Select
@@ -108,7 +112,7 @@ export default function CartPage() {
                             onClick={() => removeItem(item)}
                           >
                             Delete
-                            <Trash />
+                            <TrashIcon />
                           </Button>
                         </div>
                       </div>
