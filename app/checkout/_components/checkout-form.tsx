@@ -43,7 +43,7 @@ import {
   DEFAULT_PAYMENT_METHOD,
 } from '@/lib/constants'
 import { Separator } from '@/components/ui/separator'
-import { Trash2Icon, TrashIcon } from 'lucide-react'
+import { TrashIcon } from 'lucide-react'
 
 const shippingAddressDefaultValues =
   process.env.NODE_ENV === 'development'
