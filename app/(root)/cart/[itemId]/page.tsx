@@ -1,4 +1,4 @@
-import CartAddItem from './cart-add-item'
+import CartAddItem from './_components/cart-add-item'
 
 export default async function CartAddItemPage(props: {
   params: Promise<{ itemId: string }>
